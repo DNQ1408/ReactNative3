@@ -16,20 +16,25 @@ class App extends Component {
       Brazil: 'Brazil',
       Belgium: 'Belgium',
       Russia: 'Russia',
-      Croatia: 'Croatia'
+      Croatia: 'Croatia',
+      England: 'England',
+      Sweden: 'Sweden'
     },
     dates: {
       match1: 'Jul 6 2018 - 21:00',
       match2: 'Jul 7 2018 - 01:00',
-      match3: 'Jul 8 2018 - 01:00'
+      match3: 'Jul 8 2018 - 01:00',
+      match4: 'Jul 7 2018 - 21:00'
     },
     team_flag: {
-      Uruguay: 'http://ssl.gstatic.com/onebox/media/sports/logos/KnSUdQWiGRoy89q4x85IgA_48x48.png',
-      France: 'http://ssl.gstatic.com/onebox/media/sports/logos/z3JEQB3coEAGLCJBEUzQ2A_48x48.png',
-      Brazil: 'http://ssl.gstatic.com/onebox/media/sports/logos/zKLzoJVYz0bb6oAnPUdwWQ_48x48.png',
-      Belgium: 'http://ssl.gstatic.com/onebox/media/sports/logos/6SF7yEoB60bU5knw-M7R5Q_48x48.png',
-      Russia: 'http://ssl.gstatic.com/onebox/media/sports/logos/5Y6kOqiOIv2C1sP9C_BWtA_48x48.png',
-      Croatia: 'http://ssl.gstatic.com/onebox/media/sports/logos/9toerdOg8xW4CRhDaZxsyw_48x48.png'
+      Uruguay: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/uy-t.gif',
+      France: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/fr-t.gif',
+      Brazil: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/br-t.gif',
+      Belgium: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/be-t.gif',
+      Russia: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/ru-t.gif',
+      Croatia: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/hr-t.gif',
+      England: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/uk-t.gif',
+      Sweden: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/sw-t.gif'
     }
 
   }

@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     },
     flag: {
         flex: 2,
-        width: 40,
-        height: 20
+        width: '10%',
+        height: '10%'
     }
 })
 
