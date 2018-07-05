@@ -4,8 +4,7 @@ import {
   View,
   StyleSheet,
   Platform,
-  Image,
-  Dimensions
+  Image
 } from 'react-native';
 import MatchContainer from "./components/MatchContainer";
 
@@ -71,31 +70,32 @@ class App extends Component {
     );
   }
 }
-const { width, height } = Dimensions.get('window')
 
 const styles = StyleSheet.create({
   head_box: {
     flex: 5,
-    alignItems: 'center'
+    alignItems: 'center',
   },
   head_text: {
     marginTop: '10%',
     color: 'white',
-    fontSize: 30
+    fontSize: 30,
+    fontWeight: 'bold'
   },
   under_image_text:{
     color: 'white',
-    fontSize: 16
+    fontSize: 16,
+    fontWeight: 'bold'
   },
   head_image: {
     width: 100, height: 100, marginTop: '7%' 
   },
   matches_container: {
     flex: 6,
-    marginTop: '5%',
+    marginTop: '10%',
     justifyContent: 'space-around',
     alignItems: 'center',
-    marginBottom: '10%'
+    marginBottom: '1%'
   },
   container: {
     marginTop: Platform.OS === 'ios' ? 20 : 0,
