@@ -37,11 +37,12 @@ const styles = StyleSheet.create({
         height: height / 8,
         backgroundColor: '#3E465D',
         width: width / 6 * 5,
-        flexDirection: 'column'
+        flexDirection: 'column',
+        marginBottom: '5%'
     },
     date_box: {
         flex: 1,
-        marginTop: '2%',
+        marginTop: '5%',
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -64,8 +65,8 @@ const styles = StyleSheet.create({
     },
     flag: {
         flex: 2,
-        width: '10%',
-        height: '10%'
+        width: '50%',
+        height: '50%'
     }
 })
 

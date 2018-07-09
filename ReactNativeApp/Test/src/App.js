@@ -27,21 +27,21 @@ class App extends Component {
       match4: 'Jul 7 2018 - 21:00'
     },
     team_flag: {
-      Uruguay: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/uy-t.gif',
-      France: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/fr-t.gif',
-      Brazil: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/br-t.gif',
-      Belgium: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/be-t.gif',
-      Russia: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/ru-t.gif',
-      Croatia: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/hr-t.gif',
-      England: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/uk-t.gif',
-      Sweden: 'http://sotrans.com.vn/images/stories/Quoc%20ky%20cac%20quoc%20gia/sw-t.gif'
+      Uruguay: 'https://ssl.gstatic.com/onebox/media/sports/logos/KnSUdQWiGRoy89q4x85IgA_48x48.png',
+      France: 'https://ssl.gstatic.com/onebox/media/sports/logos/z3JEQB3coEAGLCJBEUzQ2A_48x48.png',
+      Brazil: 'https://ssl.gstatic.com/onebox/media/sports/logos/zKLzoJVYz0bb6oAnPUdwWQ_48x48.png',
+      Belgium: 'https://ssl.gstatic.com/onebox/media/sports/logos/6SF7yEoB60bU5knw-M7R5Q_48x48.png',
+      Russia: 'https://ssl.gstatic.com/onebox/media/sports/logos/5Y6kOqiOIv2C1sP9C_BWtA_48x48.png',
+      Croatia: 'https://ssl.gstatic.com/onebox/media/sports/logos/9toerdOg8xW4CRhDaZxsyw_48x48.png',
+      England: 'https://ssl.gstatic.com/onebox/media/sports/logos/6HRpt1RF_AbDUftxgVUoEw_48x48.png',
+      Sweden: 'https://ssl.gstatic.com/onebox/media/sports/logos/OkFlRvRsKMWb8Hk20L9Trw_48x48.png'
     }
 
   }
   render() {
     return (
       <View style={styles.container}>
-        <View style={ styles.head_box }>
+        <View style={styles.head_box}>
           <Text style={styles.head_text}>Schedule</Text>
           <Image
             source={{ uri: 'https://i.pinimg.com/originals/bd/6b/49/bd6b49482d53bbc4e770c8adec28344e.png' }}
@@ -70,6 +70,13 @@ class App extends Component {
             flag1={this.state.team_flag.Russia}
             flag2={this.state.team_flag.Croatia}
           />
+          <MatchContainer
+            date={this.state.dates.match4}
+            team1={this.state.team_name.England}
+            team2={this.state.team_name.Sweden}
+            flag1={this.state.team_flag.England}
+            flag2={this.state.team_flag.Sweden}
+          />
         </View>
       </View>
     );
@@ -87,13 +94,15 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold'
   },
-  under_image_text:{
+  under_image_text: {
     color: 'white',
     fontSize: 16,
     fontWeight: 'bold'
   },
   head_image: {
-    width: 100, height: 100, marginTop: '7%' 
+    width: 100,
+    height: 100,
+    marginTop: '7%'
   },
   matches_container: {
     flex: 6,
